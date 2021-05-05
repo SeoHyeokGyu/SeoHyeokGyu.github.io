@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "BTStream"
+date:   2021-03-23
+categories: Swift CocoaPods
+---
+## podfile  <br>
+pod 'Firebase/Storage' <br>
+pod 'FirebaseUI/Storage' <br>
+pod 'Firebase/Database' <br>
+pod 'Fusuma' <br>
+pod 'GoogleSignIn' <br>
+pod 'FSCalendar' <br>
+pod 'YoutubePlayerView' <br>
+<hr>
+
+![환경](https://user-images.githubusercontent.com/20594299/117164463-9a2f7800-adff-11eb-91cf-95b84227dca9.PNG)
+![UI](https://user-images.githubusercontent.com/20594299/117131778-db626080-addc-11eb-95bb-77672b3a50e1.PNG)
+![로그인1](https://user-images.githubusercontent.com/20594299/117131360-4f503900-addc-11eb-99f3-d721efa06a1c.PNG)
+![로그인2](https://user-images.githubusercontent.com/20594299/117131362-4fe8cf80-addc-11eb-9c26-d48e4fec9f58.PNG)
+![홈1](https://user-images.githubusercontent.com/20594299/117131385-5414ed00-addc-11eb-9c94-9b3288b34865.PNG)
+![홈2](https://user-images.githubusercontent.com/20594299/117131388-54ad8380-addc-11eb-9915-da9335e488dc.PNG)
+![홈3](https://user-images.githubusercontent.com/20594299/117131390-54ad8380-addc-11eb-8245-09593ec32b04.PNG)
+![홈4](https://user-images.githubusercontent.com/20594299/117131392-55461a00-addc-11eb-9446-bf8ec7991f81.PNG)
+![홈5](https://user-images.githubusercontent.com/20594299/117131395-55deb080-addc-11eb-8f01-b484002daa50.PNG)
+![뉴스](https://user-images.githubusercontent.com/20594299/117131357-4eb7a280-addc-11eb-86e5-efd90478628a.PNG)
+![기사2](https://user-images.githubusercontent.com/20594299/117131355-4e1f0c00-addc-11eb-86c8-4bca241cada1.PNG)
+![캘린더](https://user-images.githubusercontent.com/20594299/117131367-50816600-addc-11eb-9b12-f464bd699d9d.PNG)
+![피드](https://user-images.githubusercontent.com/20594299/117131370-5119fc80-addc-11eb-946d-ea18790bb56b.PNG)
+![피드2](https://user-images.githubusercontent.com/20594299/117131371-5119fc80-addc-11eb-90ff-e0183db6a3f3.PNG)
+![피드3](https://user-images.githubusercontent.com/20594299/117131376-52e3c000-addc-11eb-959a-f92a4b23eb99.PNG)
+![치드4](https://user-images.githubusercontent.com/20594299/117131366-50816600-addc-11eb-8a53-4886aefc2585.PNG)
+![피드5](https://user-images.githubusercontent.com/20594299/117131379-537c5680-addc-11eb-8026-e1fd13bab93f.PNG)
+![설정](https://user-images.githubusercontent.com/20594299/117131363-4fe8cf80-addc-11eb-8658-1dba74d426a7.PNG)
+
+```javascript
+const Razorpay = require('razorpay');
+
+let rzp = Razorpay({
+	key_id: 'KEY_ID',
+	secret: 'name'
+});
+
+// capture request
+rzp.capture(payment_id, cost)
+	.then(function (data) {
+		return 2;
+	})
+```
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
