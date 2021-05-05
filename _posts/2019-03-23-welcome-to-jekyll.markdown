@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Integrating razorpay into your webapp"
-date:   2019-03-23 21:03:36 +0530
-categories: Javascript NodeJS
+title:  "깃 허브 블로그 개설"
+date:   2021-03-23
+categories: Java SpringBoot
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+
+깃 허브 블로그를 개설하였습니다. 앞으로 작업물들에 대한 기록, 이슈들을 정리해갈 예정 ! 
 
 ```javascript
 const Razorpay = require('razorpay');
