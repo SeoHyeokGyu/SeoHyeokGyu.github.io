@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring Security 활용 예제"
 date:   2021-05-06
-categories: Java SpringBoot
+categories: Java SpringSecurity MySQL
 ---
 ##  (Spring MVC, WebForm, Security 활용하여 웹 프로그램 작성
 
