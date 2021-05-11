@@ -135,6 +135,20 @@
         {%- endif -%}
       </ul>
       {%- endif -%}
+
+      <div class="col-lg-4 col-md-2">
+        <ul class="category">
+          <li><a href="{{ "/" | relative_url }}">Allposts
+          </li>
+        {% for category in site.categories %}
+        <li {%if category[0] == page.category %}class=active {% endif %}>
+        <a href="/category/{{category | first}}">{{category | first}} ({{category | last | size}})
+        </a></li>
+
+        {% endfor %}
+        <ul>
+      </div>
+
       {%- if site.plainwhite.navigation -%}
       <nav class="navigation about-footer {{condensed_class}}">
         <ul>
@@ -182,6 +196,12 @@
     gtag('config', '{{ site.plainwhite.analytics_id }}');
   </script>
   {%- endif -%}
+  <<div class="col-lg-4 col-md-2">
+    {% for list in site.lists %}
+    {{list}} ({{list | last | size}})
+    {% endfor %}
+
+  </div>
 
   {% if site.plainwhite.search %}
   <script src="{{ "/assets/js/simple-jekyll-search.min.js" | relative_url }}"></script>
