@@ -2,8 +2,8 @@
 layout: post
 title:  "BTStream 어플 개발"
 date:   2021-05-06
-categories: Swift CocoaPods
-lists: ['과제']
+categories: Project
+tags: Swift CocoaPods
 ---
 
 ## 선정 이유
